@@ -1,0 +1,57 @@
+{
+  "interacciones": [
+    {
+      "expresiones": "saludo",
+      "patrones": [
+        "^hola",
+        "buenas? (tardes|dias|noches)",
+        "que tal",
+        "saludos",
+        "inicio"
+      ],
+      "respuestas": [
+        "¡Hola! Soy tu asistente de museos en la CDMX. ¿En qué te puedo ayudar hoy?",
+        "¡Buenas! Puedo darte recomendaciones sobre museos, costos o ubicaciones. ¿Qué buscas?"
+      ]
+    },
+    {
+      "expresiones": "despedida",
+      "patrones": [
+        "adi[oó]s",
+        "hasta luego",
+        "nos vemos",
+        "chao",
+        "gracias por todo",
+        "bye"
+      ],
+      "respuestas": [
+        "¡Hasta luego! Que disfrutes mucho tu visita a los museos.",
+        "¡Nos vemos! Regresa cuando necesites más recomendaciones."
+      ]
+    },
+    {
+      "expresiones": "agradecimiento",
+      "patrones": [
+        "gracias",
+        "te lo agradezco",
+        "excelente servicio",
+        "muy amable"
+      ],
+      "respuestas": [
+        "¡De nada! Es un placer ayudarte.",
+        "¡Por nada! ¿Hay algún otro museo sobre el que quieras consultar?"
+      ]
+    },
+    {
+      "expresiones": "cortesía",
+      "patrones": [
+        "como estas",
+        "como te va",
+        "que tal tu dia"
+      ],
+      "respuestas": [
+        "¡Todo bien por aquí, listo para ayudarte a planear tu ruta cultural! ¿Qué tipo de museo te gustaría visitar?"
+      ]
+    },
+  ]
+}
