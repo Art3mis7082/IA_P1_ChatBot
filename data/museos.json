@@ -1,0 +1,296 @@
+{
+  "museos": [
+    {
+      "id": "antropologia",
+      "nombre": "Museo Nacional de Antropología",
+      "categoria": "historia",
+      "tematica": "arqueología, culturas prehispánicas y etnografía de México",
+      "edad_recomendada": "todas las edades, ideal desde 8 años",
+      "interactivo": false,
+      "al_aire_libre": false,
+      "direccion": "Av. Paseo de la Reforma s/n, Bosque de Chapultepec, 1ª Sección, Miguel Hidalgo",
+      "metro_cercano": "Metro Auditorio (Línea 7)",
+      "dias_horario": "Martes a domingo, 9:00 a 18:00 h. Cerrado los lunes",
+      "precio_general": {
+        "extranjeros": 210,
+        "nacionales_y_residentes": 105,
+        "moneda": "MXN"
+      },
+      "descuento_estudiante": {
+        "aplica": true,
+        "detalle": "Entrada gratuita para estudiantes y docentes con credencial vigente, todos los días"
+      },
+      "gratis_domingo_mx": {
+        "aplica": true,
+        "detalle": "Domingos, entrada libre para mexicanos y extranjeros residentes con identificación vigente"
+      },
+      "expo_temporal_url": "https://mna.inah.gob.mx/",
+      "comida_cercana": [
+        { "nombre": "Cafetería del propio museo", "tipo": "cafetería", "precio_aprox": "$80-150 MXN por persona" },
+        { "nombre": "Fondas y puestos en Av. Presidente Masaryk / Polanco", "tipo": "comida mexicana", "precio_aprox": "$100-180 MXN por persona" }
+      ],
+      "actividades": ["visitas guiadas", "talleres familiares fines de semana", "conferencias temáticas"],
+      "guias_disponibles": {
+        "aplica": true,
+        "detalle": "Visitas guiadas programadas; también se puede reservar guía para grupos"
+      },
+      "duracion_estimada": "3 a 4 horas para el recorrido completo (16 salas)",
+      "restricciones": ["no tocar las piezas", "fotografía sin flash ni tripié permitida", "video sujeto a pago de derechos"]
+    },
+    {
+      "id": "templo_mayor",
+      "nombre": "Museo del Templo Mayor",
+      "categoria": "historia",
+      "tematica": "arqueología mexica, zona ceremonial del Templo Mayor",
+      "edad_recomendada": "todas las edades, ideal desde 6 años",
+      "interactivo": false,
+      "al_aire_libre": true,
+      "direccion": "Seminario 8, Centro Histórico, Cuauhtémoc",
+      "metro_cercano": "Metro Zócalo/Tenochtitlan (Línea 2)",
+      "dias_horario": "Martes a domingo, 9:00 a 17:00 h. Cerrado los lunes",
+      "precio_general": {
+        "extranjeros": 210,
+        "nacionales_y_residentes": 105,
+        "moneda": "MXN"
+      },
+      "descuento_estudiante": {
+        "aplica": true,
+        "detalle": "Entrada libre para estudiantes, maestros y personas de la tercera edad con credencial vigente"
+      },
+      "gratis_domingo_mx": {
+        "aplica": true,
+        "detalle": "Domingos, entrada libre para nacionales y extranjeros residentes en el país"
+      },
+      "expo_temporal_url": "https://www.templomayor.inah.gob.mx/",
+      "comida_cercana": [
+        { "nombre": "Puestos y fondas del Centro Histórico (calle Seminario/República de Guatemala)", "tipo": "comida mexicana", "precio_aprox": "$60-120 MXN por persona" },
+        { "nombre": "Café de Tacuba", "tipo": "restaurante tradicional", "precio_aprox": "$180-280 MXN por persona" }
+      ],
+      "actividades": ["recorridos guiados", "talleres educativos para grupos escolares"],
+      "guias_disponibles": {
+        "aplica": true,
+        "detalle": "Recorridos guiados disponibles, conviene reservar con anticipación para grupos"
+      },
+      "duracion_estimada": "1.5 a 2 horas",
+      "restricciones": ["fotografía sin flash", "video sujeto a pago de derechos", "no se permite tocar los vestigios"]
+    },
+    {
+      "id": "munal",
+      "nombre": "MUNAL (Museo Nacional de Arte)",
+      "categoria": "arte",
+      "tematica": "arte mexicano del siglo XVI a mediados del XX",
+      "edad_recomendada": "todas las edades, ideal desde 10 años",
+      "interactivo": false,
+      "al_aire_libre": false,
+      "direccion": "Calle de Tacuba 8, Centro Histórico, Cuauhtémoc",
+      "metro_cercano": "Metro Bellas Artes (Líneas 2 y 8) / Metro Allende (Línea 2)",
+      "dias_horario": "Martes a domingo, 10:00 a 18:00 h. Cerrado los lunes",
+      "precio_general": {
+        "general": 95,
+        "moneda": "MXN"
+      },
+      "descuento_estudiante": {
+        "aplica": true,
+        "detalle": "Entrada gratuita todos los días para estudiantes y docentes con credencial vigente (aplica solo a nacionales)"
+      },
+      "gratis_domingo_mx": {
+        "aplica": true,
+        "detalle": "Entrada libre los domingos para el público en general"
+      },
+      "expo_temporal_url": "https://munal.mx/es/exposiciones",
+      "comida_cercana": [
+        { "nombre": "Café-restaurante dentro del propio MUNAL", "tipo": "cafetería", "precio_aprox": "$90-160 MXN por persona" },
+        { "nombre": "Puestos y loncherías de la calle Tacuba", "tipo": "comida mexicana", "precio_aprox": "$60-120 MXN por persona" }
+      ],
+      "actividades": ["visitas guiadas diarias (12:00 y 14:00 h)", "talleres y actividades interactivas para niños", "conciertos ocasionales"],
+      "guias_disponibles": {
+        "aplica": true,
+        "detalle": "Visitas guiadas incluidas en el boleto, martes a domingo en horarios fijos"
+      },
+      "duracion_estimada": "1.5 a 2 horas",
+      "restricciones": ["no se permite tocar las obras", "mochilas u objetos mayores a 40x40 cm no pueden ingresar", "foto sin flash con permiso de $5 MXN"]
+    },
+    {
+      "id": "frida_kahlo",
+      "nombre": "Museo Frida Kahlo (Casa Azul)",
+      "categoria": "arte",
+      "tematica": "vida y obra de Frida Kahlo",
+      "edad_recomendada": "todas las edades, ideal desde 10 años",
+      "interactivo": false,
+      "al_aire_libre": false,
+      "direccion": "Londres 247, Col. Del Carmen, Coyoacán",
+      "metro_cercano": "Metro Coyoacán (Línea 3) + camino corto a pie o camión",
+      "dias_horario": "Martes 10:00-18:00 h, miércoles 11:00-18:00 h, jueves a domingo 10:00-18:00 h. Cerrado los lunes",
+      "precio_general": {
+        "general": 320,
+        "moneda": "MXN",
+        "nota": "incluye cortesía para visitar el Museo Diego Rivera-Anahuacalli; venta exclusiva en línea, no hay venta en taquilla"
+      },
+      "descuento_estudiante": {
+        "aplica": false,
+        "detalle": "Museo privado, no confirma descuento de estudiante; sí ofrece tarifa reducida para adultos mayores y niños"
+      },
+      "gratis_domingo_mx": {
+        "aplica": false,
+        "detalle": "No aplica domingo gratis; es un museo administrado por un fideicomiso privado"
+      },
+      "expo_temporal_url": "https://www.museofridakahlo.org.mx/",
+      "comida_cercana": [
+        { "nombre": "Mercado de Coyoacán (tostadas y antojitos)", "tipo": "comida mexicana", "precio_aprox": "$70-130 MXN por persona" },
+        { "nombre": "Cafeterías alrededor de Plaza Centenario", "tipo": "café/repostería", "precio_aprox": "$90-160 MXN por persona" }
+      ],
+      "actividades": ["actividades culturales semanales", "recorridos temáticos por el jardín"],
+      "guias_disponibles": {
+        "aplica": true,
+        "detalle": "Visitas guiadas disponibles con reservación previa, costo adicional"
+      },
+      "duracion_estimada": "1 a 1.5 horas",
+      "restricciones": ["boleto con horario de entrada fijo, comprar con anticipación", "no se permite video en interiores sin permiso", "sin flash en exteriores"]
+    },
+    {
+      "id": "papalote",
+      "nombre": "Papalote Museo del Niño",
+      "categoria": "ciencia_interactivo",
+      "tematica": "ciencia, arte y tecnología para niños, aprendizaje mediante el juego",
+      "edad_recomendada": "de 2 a 12 años, ideal para familias",
+      "interactivo": true,
+      "al_aire_libre": false,
+      "direccion": "Av. Constituyentes 268, Col. Daniel Garza, Bosque de Chapultepec, 2ª Sección",
+      "metro_cercano": "Metro Constituyentes (Línea 1) + camión/caminata corta",
+      "dias_horario": "Todos los días, horario variable según temporada; consultar sitio oficial",
+      "precio_general": {
+        "general": 199,
+        "moneda": "MXN",
+        "nota": "el precio varía según el día (entre semana/fin de semana) y si se incluye IMAX o Domo Digital"
+      },
+      "descuento_estudiante": {
+        "aplica": false,
+        "detalle": "Museo privado sin fines de lucro, no reporta descuento específico de estudiante"
+      },
+      "gratis_domingo_mx": {
+        "aplica": false,
+        "detalle": "No aplica domingo gratis; es un museo privado"
+      },
+      "expo_temporal_url": "https://www.papalote.org.mx/",
+      "comida_cercana": [
+        { "nombre": "Zona de alimentos dentro del propio museo", "tipo": "food court", "precio_aprox": "$80-150 MXN por persona" },
+        { "nombre": "Puestos cercanos en Bosque de Chapultepec 2ª Sección", "tipo": "antojitos", "precio_aprox": "$50-100 MXN por persona" }
+      ],
+      "actividades": ["talleres STEAM", "funciones de Megapantalla IMAX", "Domo Digital", "eventos temporales por temporada"],
+      "guias_disponibles": {
+        "aplica": false,
+        "detalle": "No maneja guías fijas; el recorrido es libre y autoguiado"
+      },
+      "duracion_estimada": "4 a 5 horas para experiencia completa",
+      "restricciones": ["no se permite entrar con alimentos externos, salvo comida de bebé", "no hay guardarropa fijo, se recomienda llevar solo lo esencial"]
+    },
+    {
+      "id": "universum",
+      "nombre": "Universum, Museo de las Ciencias de la UNAM",
+      "categoria": "ciencia_interactivo",
+      "tematica": "ciencia y tecnología: biología, astronomía, robótica, matemáticas",
+      "edad_recomendada": "todas las edades, ideal desde 6 años",
+      "interactivo": true,
+      "al_aire_libre": false,
+      "direccion": "Circuito Cultural s/n, Ciudad Universitaria, Coyoacán",
+      "metro_cercano": "Metrobús Línea 1 - estación Ciudad Universitaria / Metro Universidad (Línea 3) + camión interno CU",
+      "dias_horario": "Miércoles a domingo, 10:00 a 17:00 h (taquilla cierra a las 16:00 h). Cerrado lunes y martes",
+      "precio_general": {
+        "general": 90,
+        "moneda": "MXN"
+      },
+      "descuento_estudiante": {
+        "aplica": true,
+        "detalle": "$80 MXN para niños, estudiantes, maestros, INAPAM, trabajadores y exalumnos UNAM con credencial vigente"
+      },
+      "gratis_domingo_mx": {
+        "aplica": false,
+        "detalle": "No maneja domingo gratis general; el descuento aplica por perfil (estudiante, INAPAM, etc.), no por día"
+      },
+      "expo_temporal_url": "https://www.universum.unam.mx/",
+      "comida_cercana": [
+        { "nombre": "Cafeterías de Ciudad Universitaria (Facultad de Ciencias, CCU)", "tipo": "cafetería universitaria", "precio_aprox": "$60-120 MXN por persona" },
+        { "nombre": "Puestos de comida en el Circuito Cultural", "tipo": "antojitos", "precio_aprox": "$50-100 MXN por persona" }
+      ],
+      "actividades": ["talleres de química y ciencia", "funciones de Planetario José de la Herrán (costo adicional)", "visitas guiadas con reservación"],
+      "guias_disponibles": {
+        "aplica": true,
+        "detalle": "Visita guiada disponible reservando con un mes de anticipación"
+      },
+      "duracion_estimada": "3 a 4 horas",
+      "restricciones": ["no se permite el ingreso de mochilas (hay paquetería gratuita)", "no se permiten alimentos dentro de las salas", "no se permiten mascotas"]
+    },
+    {
+      "id": "memoria_tolerancia",
+      "nombre": "Museo Memoria y Tolerancia",
+      "categoria": "tematico",
+      "tematica": "derechos humanos, memoria histórica y genocidios",
+      "edad_recomendada": "recomendado para mayores de 10-12 años por el contenido del tema",
+      "interactivo": false,
+      "al_aire_libre": false,
+      "direccion": "Av. Juárez 8, Plaza Juárez, Centro Histórico, Cuauhtémoc",
+      "metro_cercano": "Metro Hidalgo o Metro Bellas Artes (Líneas 2, 3 y 4)",
+      "dias_horario": "Martes a viernes 9:00-17:00 h; sábado y domingo 10:00-18:00 h. Cerrado lunes",
+      "precio_general": {
+        "general": 140,
+        "moneda": "MXN"
+      },
+      "descuento_estudiante": {
+        "aplica": true,
+        "detalle": "$110 MXN para estudiantes, maestros e INAPAM con credencial vigente"
+      },
+      "gratis_domingo_mx": {
+        "aplica": false,
+        "detalle": "No maneja domingo gratis; el museo es administrado por una asociación civil"
+      },
+      "expo_temporal_url": "https://www.myt.org.mx/",
+      "comida_cercana": [
+        { "nombre": "Restaurantes y cafeterías de la Alameda Central", "tipo": "variado", "precio_aprox": "$90-170 MXN por persona" },
+        { "nombre": "Puestos económicos alrededor de la Av. Juárez", "tipo": "comida mexicana", "precio_aprox": "$60-110 MXN por persona" }
+      ],
+      "actividades": ["visitas guiadas", "talleres sobre derechos humanos para escuelas", "exposiciones temporales rotativas"],
+      "guias_disponibles": {
+        "aplica": true,
+        "detalle": "Visita guiada recomendada, disponible con reservación"
+      },
+      "duracion_estimada": "2 a 3 horas",
+      "restricciones": ["contenido sensible, se recomienda supervisión con menores", "no se permite tomar fotografías en algunas salas", "no se permite el ingreso de alimentos"]
+    },
+    {
+      "id": "historia_natural",
+      "nombre": "Museo de Historia Natural y Cultura Ambiental",
+      "categoria": "tematico",
+      "tematica": "evolución de la vida, biodiversidad y cultura ambiental",
+      "edad_recomendada": "todas las edades, ideal desde 4 años",
+      "interactivo": false,
+      "al_aire_libre": false,
+      "direccion": "Av. de los Compositores s/n, Bosque de Chapultepec, 2ª Sección",
+      "metro_cercano": "Metro Constituyentes (Línea 1) + Cablebús Línea 3 o caminata",
+      "dias_horario": "Martes a domingo, 10:00 a 17:00 h. Cerrado los lunes",
+      "precio_general": {
+        "general": 38,
+        "moneda": "MXN"
+      },
+      "descuento_estudiante": {
+        "aplica": true,
+        "detalle": "$18 MXN para niños, estudiantes y maestros con credencial vigente"
+      },
+      "gratis_domingo_mx": {
+        "aplica": true,
+        "detalle": "Entrada libre los domingos para el público en general"
+      },
+      "expo_temporal_url": "http://data.sedema.cdmx.gob.mx/museodehistorianatural/",
+      "comida_cercana": [
+        { "nombre": "Puestos dentro de la 2ª Sección de Chapultepec", "tipo": "antojitos", "precio_aprox": "$50-100 MXN por persona" },
+        { "nombre": "Zona de alimentos del Papalote (a unos minutos caminando)", "tipo": "food court", "precio_aprox": "$80-150 MXN por persona" }
+      ],
+      "actividades": ["observaciones astronómicas gratuitas ocasionales", "visitas guiadas para grupos escolares", "talleres de cultura ambiental"],
+      "guias_disponibles": {
+        "aplica": true,
+        "detalle": "Visitas guiadas miércoles a viernes con reservación previa, costo adicional de $16 MXN"
+      },
+      "duracion_estimada": "1.5 a 2 horas",
+      "restricciones": ["no se permite tocar taxidermias ni piezas exhibidas", "no se permiten mascotas", "sin flash en fotografías"]
+    }
+  ]
+}
