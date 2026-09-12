@@ -1,0 +1,41 @@
+{
+  "reglas_vestimenta": [
+    {
+      "condicion": "al_aire_libre == true",
+      "recomendacion": "Usa gorra o sombrero, bloqueador solar y calzado cómodo para caminar; lleva agua."
+    },
+    {
+      "condicion": "interactivo == true",
+      "recomendacion": "Usa ropa cómoda y tenis, ya que hay actividades manuales y zonas para moverte o jugar."
+    },
+    {
+      "condicion": "categoria == 'arte'",
+      "recomendacion": "Evita mochilas grandes o bolsos voluminosos; en varios museos de arte deben dejarse en guardarropa."
+    },
+    {
+      "condicion": "categoria == 'historia'",
+      "recomendacion": "Calzado cómodo para caminar entre salas y, si el museo tiene zona arqueológica exterior, protección solar."
+    },
+    {
+      "condicion": "categoria == 'tematico'",
+      "recomendacion": "Ropa casual; si el tema es sensible (ej. derechos humanos), considera ir con ánimo tranquilo y tiempo suficiente."
+    },
+    {
+      "condicion": "default",
+      "recomendacion": "Ropa y calzado cómodos son suficientes para la mayoría de los museos en interiores."
+    }
+  ],
+  "restricciones_generales": [
+    "No se permite el uso de flash en la mayoría de las salas.",
+    "No se permite tocar las piezas, obras u objetos en exhibición, salvo en museos interactivos donde se indique lo contrario.",
+    "El uso de video suele requerir un permiso o pago adicional.",
+    "No se permite introducir alimentos ni bebidas a las salas de exhibición.",
+    "Mochilas o bultos grandes normalmente deben dejarse en guardarropa o paquetería.",
+    "En la mayoría de los recintos no se permite el ingreso de mascotas, salvo perros guía."
+  ],
+  "notas_precio": [
+    "Los recintos operados por el INAH (Instituto Nacional de Antropología e Historia) suelen ofrecer entrada libre los domingos únicamente a mexicanos y extranjeros residentes con identificación vigente; los extranjeros no residentes pagan tarifa completa incluso en domingo.",
+    "Los museos administrados por asociaciones civiles o fideicomisos privados (ej. Frida Kahlo, Papalote) no necesariamente ofrecen domingo gratis; conviene revisar el campo gratis_domingo_mx de cada museo.",
+    "Los precios pueden cambiar con el tiempo; el bot debe indicar que conviene confirmar en el sitio oficial del museo antes de la visita."
+  ]
+}
