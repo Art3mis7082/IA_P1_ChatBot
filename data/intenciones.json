@@ -1,0 +1,101 @@
+{
+  "intenciones": [
+    {
+      "id": "despedida",
+      "patrones_regex": ["(?i)^(adios|gracias|bye|hasta luego)"],
+      "descripcion": "El usuario termina la conversación"
+    },
+    {
+      "id": "horario",
+      "patrones_regex": ["(?i)(horario|abre|abierto|cierran|dias.*(abre|abierto)|a que hora)"],
+      "descripcion": "Pregunta por días y horas de apertura"
+    },
+    {
+      "id": "precio",
+      "patrones_regex": ["(?i)(precio|cuesta|entrada|boleto|cuanto.*(cuesta|vale))"],
+      "descripcion": "Pregunta por el costo de entrada"
+    },
+    {
+      "id": "descuento",
+      "patrones_regex": ["(?i)(descuento|estudiante|credencial|inapam|maestro)"],
+      "descripcion": "Pregunta por descuentos o tarifas reducidas"
+    },
+    {
+      "id": "domingo_gratis",
+      "patrones_regex": ["(?i)(domingo.*gratis|gratis.*domingo|entrada libre.*domingo)"],
+      "descripcion": "Pregunta si el domingo es gratis para mexicanos"
+    },
+    {
+      "id": "transporte",
+      "patrones_regex": [
+        "(?i)como.*lleg",
+        "(?i)(metro|metrobus|transporte|ubicacion|donde esta|donde queda|direccion|estacion)"
+      ],
+      "descripcion": "Pregunta por ubicación o transporte cercano"
+    },
+    {
+      "id": "expo_temporal",
+      "patrones_regex": ["(?i)(expo|exposicion|actividades|talleres).*(temporal|actual|ahorita|ahora)"],
+      "descripcion": "Pregunta por exposiciones temporales vigentes"
+    },
+    {
+      "id": "comida",
+      "patrones_regex": ["(?i)(comer|comida|donde como|restaurante|antojo|alimentos|cafeteria|cafe)"],
+      "descripcion": "Pregunta por opciones de comida cercanas"
+    },
+    {
+      "id": "actividades",
+      "patrones_regex": ["(?i)(taller|actividad|evento|ludico|sala|funcion|exhibicion|que (hay|tiene) en)"],
+      "descripcion": "Pregunta por talleres, actividades, salas o eventos"
+    },
+    {
+      "id": "guias",
+      "patrones_regex": ["(?i)(guia|recorrido guiado|visita guiada)"],
+      "descripcion": "Pregunta si hay guías o visitas programadas"
+    },
+    {
+      "id": "duracion",
+      "patrones_regex": ["(?i)(cuanto.*(dura|tarda)|duracion|tiempo.*(recorrer|visitar))"],
+      "descripcion": "Pregunta cuánto dura el recorrido"
+    },
+    {
+      "id": "recomendaciones",
+      "patrones_regex": ["(?i)(pongo|poner|llevar|ropa|vestimenta|recomendacion)"],
+      "descripcion": "Pregunta por recomendaciones de vestimenta o qué llevar a un museo ya elegido"
+    },
+    {
+      "id": "restricciones",
+      "patrones_regex": ["(?i)(prohibido|no se permite|puedo tomar fotos|se puede tocar)"],
+      "descripcion": "Pregunta por lo que no está permitido"
+    },
+    {
+      "id": "filtro_categoria",
+      "patrones_regex": [
+        "(?i)museo.*(arte|historia|ciencia|interactivo|cultura|tematico)",
+        "(?i)de (arte|historia|ciencia|cientifico|interactivo|cultura|cultural|artistico|arqueologia|tecnologia)",
+        "(?i)^(arte|historia|ciencia|cientifico|interactivo|cultura|cultural|artistico|arqueologia|tecnologia)\\b"
+      ],
+      "descripcion": "Filtra museos por categoría o temática"
+    },
+    {
+      "id": "filtro_edad",
+      "patrones_regex": ["(?i)(nino|ninos|infantil|para toda la familia|para adultos)"],
+      "descripcion": "Filtra museos por edad recomendada"
+    },
+    {
+      "id": "pedir_recomendacion",
+      "patrones_regex": [
+        "(?i)recom",
+        "(?i)no se (cual|que) museo",
+        "(?i)ayudame a elegir",
+        "(?i)cual museo"
+      ],
+      "descripcion": "El usuario pide una recomendación general de museo, sin especificar categoría"
+    },
+    {
+      "id": "saludo",
+      "patrones_regex": ["(?i)^(hola|buenas|que tal|hey|saludos|oye|buenos dias|buenas tardes|buenas noches)"],
+      "descripcion": "El usuario inicia la conversación"
+    }
+  ]
+}
